@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="urn:webprotege:ontology:9626183d-e24b-4798-8670-cf395fe5ea8c"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="urn:webprotege:ontology:9626183d-e24b-4798-8670-cf395fe5ea8c">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R8hQEMNYmYgTKasUW1fgMxP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R8qOIHFBQOHCnxctQ96Kwvt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R980KjjJQkdZNuHnnuAp9hu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R9YOMJAlesYnNSfoFlUGnYk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R9zh3tAcIJo0Qjl7vZpfsXt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RL10Ey6GU7o6y71BFyrLo4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RQYgIxGRjzBZ5QUmpKLjXC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RfkOkh2I0OXKeVtzvxLtoO"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RkrpALmUWcFLZnRnFSl7wV"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/Rp7WUI7WyLAzzbJSmghlTJ"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R8hQEMNYmYgTKasUW1fgMxP"/>
+        <Class IRI="http://webprotege.stanford.edu/RQYgIxGRjzBZ5QUmpKLjXC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R8qOIHFBQOHCnxctQ96Kwvt"/>
+        <Class IRI="http://webprotege.stanford.edu/R9zh3tAcIJo0Qjl7vZpfsXt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R980KjjJQkdZNuHnnuAp9hu"/>
+        <Class IRI="http://webprotege.stanford.edu/RQYgIxGRjzBZ5QUmpKLjXC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R9YOMJAlesYnNSfoFlUGnYk"/>
+        <Class IRI="http://webprotege.stanford.edu/R9zh3tAcIJo0Qjl7vZpfsXt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R9zh3tAcIJo0Qjl7vZpfsXt"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RL10Ey6GU7o6y71BFyrLo4"/>
+        <Class IRI="http://webprotege.stanford.edu/R9zh3tAcIJo0Qjl7vZpfsXt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RfkOkh2I0OXKeVtzvxLtoO"/>
+        <Class IRI="http://webprotege.stanford.edu/R9zh3tAcIJo0Qjl7vZpfsXt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RkrpALmUWcFLZnRnFSl7wV"/>
+        <Class IRI="http://webprotege.stanford.edu/RQYgIxGRjzBZ5QUmpKLjXC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/Rp7WUI7WyLAzzbJSmghlTJ"/>
+        <Class IRI="http://webprotege.stanford.edu/RQYgIxGRjzBZ5QUmpKLjXC"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R8hQEMNYmYgTKasUW1fgMxP</IRI>
+        <Literal xml:lang="en">Author2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R8qOIHFBQOHCnxctQ96Kwvt</IRI>
+        <Literal xml:lang="en">pptx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R980KjjJQkdZNuHnnuAp9hu</IRI>
+        <Literal xml:lang="en">Author1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R9YOMJAlesYnNSfoFlUGnYk</IRI>
+        <Literal xml:lang="en">xlsx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R9zh3tAcIJo0Qjl7vZpfsXt</IRI>
+        <Literal xml:lang="en">Document Type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RL10Ey6GU7o6y71BFyrLo4</IRI>
+        <Literal xml:lang="en">pdf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RQYgIxGRjzBZ5QUmpKLjXC</IRI>
+        <Literal xml:lang="en">Author</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RfkOkh2I0OXKeVtzvxLtoO</IRI>
+        <Literal xml:lang="en">png</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RkrpALmUWcFLZnRnFSl7wV</IRI>
+        <Literal xml:lang="en">Author3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/Rp7WUI7WyLAzzbJSmghlTJ</IRI>
+        <Literal xml:lang="en">Author4</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+

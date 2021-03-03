@@ -1,0 +1,107 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <urn:webprotege:ontology:9626183d-e24b-4798-8670-cf395fe5ea8c>
+
+
+AnnotationProperty: rdfs:label
+
+    
+Datatype: rdf:PlainLiteral
+
+    
+Class: <http://webprotege.stanford.edu/R8hQEMNYmYgTKasUW1fgMxP>
+
+    Annotations: 
+        rdfs:label "Author2"@en
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RQYgIxGRjzBZ5QUmpKLjXC>
+    
+    
+Class: <http://webprotege.stanford.edu/R8qOIHFBQOHCnxctQ96Kwvt>
+
+    Annotations: 
+        rdfs:label "pptx"@en
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R9zh3tAcIJo0Qjl7vZpfsXt>
+    
+    
+Class: <http://webprotege.stanford.edu/R980KjjJQkdZNuHnnuAp9hu>
+
+    Annotations: 
+        rdfs:label "Author1"@en
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RQYgIxGRjzBZ5QUmpKLjXC>
+    
+    
+Class: <http://webprotege.stanford.edu/R9YOMJAlesYnNSfoFlUGnYk>
+
+    Annotations: 
+        rdfs:label "xlsx"@en
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R9zh3tAcIJo0Qjl7vZpfsXt>
+    
+    
+Class: <http://webprotege.stanford.edu/R9zh3tAcIJo0Qjl7vZpfsXt>
+
+    Annotations: 
+        rdfs:label "Document Type"@en
+    
+    SubClassOf: 
+        owl:Thing
+    
+    
+Class: <http://webprotege.stanford.edu/RL10Ey6GU7o6y71BFyrLo4>
+
+    Annotations: 
+        rdfs:label "pdf"@en
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R9zh3tAcIJo0Qjl7vZpfsXt>
+    
+    
+Class: <http://webprotege.stanford.edu/RQYgIxGRjzBZ5QUmpKLjXC>
+
+    Annotations: 
+        rdfs:label "Author"@en
+    
+    
+Class: <http://webprotege.stanford.edu/RfkOkh2I0OXKeVtzvxLtoO>
+
+    Annotations: 
+        rdfs:label "png"@en
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R9zh3tAcIJo0Qjl7vZpfsXt>
+    
+    
+Class: <http://webprotege.stanford.edu/RkrpALmUWcFLZnRnFSl7wV>
+
+    Annotations: 
+        rdfs:label "Author3"@en
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RQYgIxGRjzBZ5QUmpKLjXC>
+    
+    
+Class: <http://webprotege.stanford.edu/Rp7WUI7WyLAzzbJSmghlTJ>
+
+    Annotations: 
+        rdfs:label "Author4"@en
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RQYgIxGRjzBZ5QUmpKLjXC>
+    
+    
+Class: owl:Thing
+
+    

@@ -1,0 +1,77 @@
+Prefix(:=<urn:webprotege:ontology:9626183d-e24b-4798-8670-cf395fe5ea8c#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<urn:webprotege:ontology:9626183d-e24b-4798-8670-cf395fe5ea8c>
+
+Declaration(Class(<http://webprotege.stanford.edu/R8hQEMNYmYgTKasUW1fgMxP>))
+Declaration(Class(<http://webprotege.stanford.edu/R8qOIHFBQOHCnxctQ96Kwvt>))
+Declaration(Class(<http://webprotege.stanford.edu/R980KjjJQkdZNuHnnuAp9hu>))
+Declaration(Class(<http://webprotege.stanford.edu/R9YOMJAlesYnNSfoFlUGnYk>))
+Declaration(Class(<http://webprotege.stanford.edu/R9zh3tAcIJo0Qjl7vZpfsXt>))
+Declaration(Class(<http://webprotege.stanford.edu/RL10Ey6GU7o6y71BFyrLo4>))
+Declaration(Class(<http://webprotege.stanford.edu/RQYgIxGRjzBZ5QUmpKLjXC>))
+Declaration(Class(<http://webprotege.stanford.edu/RfkOkh2I0OXKeVtzvxLtoO>))
+Declaration(Class(<http://webprotege.stanford.edu/RkrpALmUWcFLZnRnFSl7wV>))
+Declaration(Class(<http://webprotege.stanford.edu/Rp7WUI7WyLAzzbJSmghlTJ>))
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://webprotege.stanford.edu/R8hQEMNYmYgTKasUW1fgMxP> (Author2)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8hQEMNYmYgTKasUW1fgMxP> "Author2"@en)
+SubClassOf(<http://webprotege.stanford.edu/R8hQEMNYmYgTKasUW1fgMxP> <http://webprotege.stanford.edu/RQYgIxGRjzBZ5QUmpKLjXC>)
+
+# Class: <http://webprotege.stanford.edu/R8qOIHFBQOHCnxctQ96Kwvt> (pptx)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8qOIHFBQOHCnxctQ96Kwvt> "pptx"@en)
+SubClassOf(<http://webprotege.stanford.edu/R8qOIHFBQOHCnxctQ96Kwvt> <http://webprotege.stanford.edu/R9zh3tAcIJo0Qjl7vZpfsXt>)
+
+# Class: <http://webprotege.stanford.edu/R980KjjJQkdZNuHnnuAp9hu> (Author1)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R980KjjJQkdZNuHnnuAp9hu> "Author1"@en)
+SubClassOf(<http://webprotege.stanford.edu/R980KjjJQkdZNuHnnuAp9hu> <http://webprotege.stanford.edu/RQYgIxGRjzBZ5QUmpKLjXC>)
+
+# Class: <http://webprotege.stanford.edu/R9YOMJAlesYnNSfoFlUGnYk> (xlsx)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9YOMJAlesYnNSfoFlUGnYk> "xlsx"@en)
+SubClassOf(<http://webprotege.stanford.edu/R9YOMJAlesYnNSfoFlUGnYk> <http://webprotege.stanford.edu/R9zh3tAcIJo0Qjl7vZpfsXt>)
+
+# Class: <http://webprotege.stanford.edu/R9zh3tAcIJo0Qjl7vZpfsXt> (Document Type)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9zh3tAcIJo0Qjl7vZpfsXt> "Document Type"@en)
+SubClassOf(<http://webprotege.stanford.edu/R9zh3tAcIJo0Qjl7vZpfsXt> owl:Thing)
+
+# Class: <http://webprotege.stanford.edu/RL10Ey6GU7o6y71BFyrLo4> (pdf)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RL10Ey6GU7o6y71BFyrLo4> "pdf"@en)
+SubClassOf(<http://webprotege.stanford.edu/RL10Ey6GU7o6y71BFyrLo4> <http://webprotege.stanford.edu/R9zh3tAcIJo0Qjl7vZpfsXt>)
+
+# Class: <http://webprotege.stanford.edu/RQYgIxGRjzBZ5QUmpKLjXC> (Author)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RQYgIxGRjzBZ5QUmpKLjXC> "Author"@en)
+
+# Class: <http://webprotege.stanford.edu/RfkOkh2I0OXKeVtzvxLtoO> (png)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RfkOkh2I0OXKeVtzvxLtoO> "png"@en)
+SubClassOf(<http://webprotege.stanford.edu/RfkOkh2I0OXKeVtzvxLtoO> <http://webprotege.stanford.edu/R9zh3tAcIJo0Qjl7vZpfsXt>)
+
+# Class: <http://webprotege.stanford.edu/RkrpALmUWcFLZnRnFSl7wV> (Author3)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RkrpALmUWcFLZnRnFSl7wV> "Author3"@en)
+SubClassOf(<http://webprotege.stanford.edu/RkrpALmUWcFLZnRnFSl7wV> <http://webprotege.stanford.edu/RQYgIxGRjzBZ5QUmpKLjXC>)
+
+# Class: <http://webprotege.stanford.edu/Rp7WUI7WyLAzzbJSmghlTJ> (Author4)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/Rp7WUI7WyLAzzbJSmghlTJ> "Author4"@en)
+SubClassOf(<http://webprotege.stanford.edu/Rp7WUI7WyLAzzbJSmghlTJ> <http://webprotege.stanford.edu/RQYgIxGRjzBZ5QUmpKLjXC>)
+
+
+)
